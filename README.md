@@ -5,7 +5,7 @@ Colaboradores do projeto:
 -Mateus Souza
 -Olávio Batista Corrêa
 
-# Projeto: E-Comerce de Venda de Roupas
-# Nome do E-Comerce: Style Tech
-# Sprint 01 (Criação de um projeto no Figma)
-# Sprint 02 (Codar projeto usando HTML)
+ Projeto: E-Commerce de Venda de Roupas
+ Nome do E-Commerce: Style Tech
+ Sprint 01 (Criação de um projeto no Figma)
+ Sprint 02 (Codar projeto usando HTML)
