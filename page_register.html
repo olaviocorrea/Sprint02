@@ -23,30 +23,48 @@
             </nav>
         </div> 
     </header>
-    <div>  
-        <form>
-            <h2>NOVO CADASTRO</h2>
+    <main>
+        <form class="form-login">
             <div>
-                <label for="username">Usuário</label>
+                <b><h2>StyleTech | Login</h2></b>
             </div>
             <div>
-                <input type="text" id="username" name="username">
-            </div><br>
-            <div>
-                <label for="senha1">Senha</label>
+                <div for="email">
+                    <label>Usuário</label>
+                </div>
+                <div class="input">
+                    <img src="./img/imgUsername.svg" alt="Icone Usuário" target="_blank" class="iconiUsername">
+                    <input type="email" class= input-form id="email" name="email">
+                </div>
             </div>
             <div>
-                <input type="password" id="senha1" name="senha1">
-            </div><br>
-            <div>
-                <label for="senha2">Confirmação da senha</label>
+                <div  for="senha">
+                    <label>Senha</label>
+                </div>
+                <div class="input">
+                    <img src="./img/imgSecure.svg" alt="Icone Usuário" target="_blank" class="iconiUsername">
+                    <input type="password" class= input-form id="senha" name="senha">
+                </div>
             </div>
             <div>
-                <input type="password" id="senha2" name="senha2">
-            </div><br>
-            <button type="submit">SALVAR</button>
-        </form><br>
-    </div>
+                <div  for="senha">
+                    <label>Confirmação de senha</label>
+                </div>
+                <div class="input">
+                    <img src="./img/imgSecure.svg" alt="Icone Usuário" target="_blank" class="iconiUsername">
+                    <input type="password" class= input-form id="confirma-senha" name="senha">
+                </div>
+            </div>
+            <div id="botao-login">
+                <div class="button">
+                    <button type="submit">Criar conta</button>
+                </div>
+                <div class="button">
+                    <button type="submit">Entrar</button>
+                </div> 
+            </div>        
+        </form>
+    </main>
     <footer>
         <p>Contato</p>
             <li><a href= "">Facebook</a></li>
