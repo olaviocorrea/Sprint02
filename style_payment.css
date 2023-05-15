@@ -64,3 +64,16 @@ main{
     width: 40%;
     left: auto;
 }
+
+/*------ FOOTER ------*/
+
+footer {
+    background-color: #333;
+    color: #eaeaea;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;  
+}
