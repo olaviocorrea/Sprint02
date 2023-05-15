@@ -27,6 +27,7 @@ header h1{
     color: #eaeaea ;
     display: block;
     padding-left: 2rem;
+    text-decoration: underline;
 }
 header div nav ul{
     list-style: none;      
@@ -39,16 +40,7 @@ header nav ul li a{
     padding-left: 0.4em;
     padding-right: 0.4em;
 }
-#content{
-    float: center;
-    width: 800px;
-    background-color: aquamarine;
-}
-#text{
-    float: center;
-    width: 800px;
-    background-color: blue;
-}
+
 footer{
     clear: both;
     height: 78px;

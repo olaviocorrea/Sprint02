@@ -11,6 +11,7 @@ main{
     gap: 5px;
 
 }
+
 .detalhes-pedidos{
     display: flex;    
     justify-content: space-between;
@@ -19,10 +20,12 @@ main{
     padding: 3%
 
 }
+
 .forma-pgto{
     background: #2B2C32;
     color: #eaeaea;
     padding: 3%
+    
 }
 
 .button_finalizar-pgto{
@@ -40,7 +43,24 @@ main{
     margin-left: 80%;
     border: none;
 }
-#img-pix{
+
+#img-mastercard{
     width: 30%;
+    left: auto;    
+}
+
+#img-visa{
+    width: 30%;
+    left: auto;
+}
+
+#img-pix{
+    width: 50%;
+    left: auto;
+
+}
+
+#img-boleto{
+    width: 40%;
     left: auto;
 }
