@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="style_payment.css" />
     <title>Pagamento-StyleTech</title>
 </head>
 <body>
@@ -27,29 +28,43 @@
         <h1>
             <b>StyleTech | Pedidos</b> 
         </h1>
-        <dl>
-            <dt>Número do pedido</dt>
-            <dd>0001</dd>
-            <dt>Valor</dt>
-            <dd>R$ 00,00</dd>
+        <dl class="detalhes-pedidos">
+            <div>
+                <dt>Número do pedido</dt>
+                <dd>0001</dd>
+            </div>
+            <div>
+                <dt>Valor</dt>
+                <dd>R$ 00,00</dd>
+            </div>
         </dl>
-        <a href="detalhes" target="_blank">VER DETALHES</a> 
-        <dl>
+        <button type="submit" class="ver-detalhes">Ver detalhes</button>
+        <dl class="forma-pgto">
             <p>Escolha uma forma de pagamento</P>
-            <dt>CRÉDITO | DÉBITO</dt>         
-            <dd>"IMG CRÉDITO | DÉBITO"</dd>
-            <dt>PIX</dt>
-            <dd>IMG PIX</dd>
-            <dt>BOLETO</dt>
-            <dd>IMG BOLETO</dd>
+            <div class="detalhes-pedidos">
+                <div>
+                    <dt>CRÉDITO | DÉBITO</dt>         
+                    <dd>"IMG CRÉDITO | DÉBITO"</dd>
+                </div>
+                <div>
+                    <dt>PIX</dt>
+                    <img src="./img/ico_pix.svg" alt="Icone Usuário" target="_blank" id="img-pix">
+                </div>
+                <div>
+                    <dt>BOLETO</dt>
+                    <dd>IMG BOLETO</dd>
+                </div>
+            </div>
         </dl>
-        <button type="submit">FINALIZAR</button>
+        <button type="submit" class="button_finalizar-pgto">FINALIZAR</button>
     </main>
     <footer>
         <p>Contato</p>
-        <li><a href= "">Facebook</a></li>
-        <li><a href= "">Instagram</a></li>
-        <li><a href= "">Linkedin</a></li>
+        <div>
+            <a href="">Facebook</a>
+            <a href="">Instagram</a>
+            <a href="">Linkedin</a>
+        </div>
     </footer>
 </body>
 </html>
