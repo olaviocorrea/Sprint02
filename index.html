@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="Style_Index.css" />
+    <script src="JS_Index.js" defer></script>
     <title>Home-StyleTech</title>
 </head>
 <body>
@@ -12,29 +13,64 @@
         <div id="wrap">            
             <h1>StyleTech</h1>
             <nav>
-                <ul>
-                    <li><a href="index.html" target="_self" class="home">HOME</a></li>
-                    <li><a href="page_products.html" target="_self" class="produtos">PRODUTOS</a></li>
-                    <li><a href="page_about.html" target="_self" class="about">ABOUT</a></li>
-                    <li><a href="page_account.html" target="_self" class="conta">LOGIN</a></li>
-                    <li><a href="page_register.html" target="_self" class="cadastro">CADASTRO</a></li>
-                    <li><a href="page_payment.html" target="_self" class="pagamento">PAGAMENTO</a></li>  
-                </ul>
+                <h2>
+                    <ul>
+                        <li><a href="page_products.html" target="_self" class="produtos">PRODUTOS</a></li>
+                        <li><a href="page_about.html" target="_self" class="about">ABOUT</a></li>
+                        <li><a href="page_account.html" target="_self" class="conta">LOGIN</a></li>
+                        <li><a href="page_register.html" target="_self" class="cadastro">CADASTRO</a></li>
+                        <li><a href="page_payment.html" target="_self" class="pagamento">PAGAMENTO</a></li>  
+                    </ul>
+                </h2>
             </nav>
         </div> 
     </header>
-    <main>
-        <h1>
-            <b>StyleTech</b> 
-        </h1>
-        <img src="WhatsApp Image 2023-04-04 at 23.19.12.jpeg">
-    </main>
+
+    <div id="line">
+        <p>StyleTech | Home</p>
+    </div>
+
+    <section class="slider">
+        <div class="slider-content">
+
+            <input type="radio" name="btn-radio" id="radio1">
+            <input type="radio" name="btn-radio" id="radio2">
+            <input type="radio" name="btn-radio" id="radio3">
+
+            <div class="slide-box primeiro">
+                <img class="img1" src="IMG USADAS/img01.jpg" alt="Imagem 1">
+            </div>
+
+            <div class="slide-box">
+                <img class="img2" src="IMG USADAS/img02.jpg" alt="Imagem 2">
+            </div>  
+
+            <div class="slide-box">
+                <img class="img3" src="IMG USADAS/img03.jpg" alt="Imagem 3">
+            </div>  
+
+            <div class="nav-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+            </div>
+
+            <div class="nav-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+            </div>
+
+        </div>
+    </section>
+
+
     <footer>
-        <p>Contato</p>
-        <li><a href= "">Facebook</a></li>
-        <li><a href= "">Instagram</a></li>
-        <li><a href= "">Linkedin</a></li><br>
-        <p class=""copyright>&copy; StyleTech</p>
+        <div id="down">
+            <ul>
+                <p class=""copyright>&copy; StyleTech</p>
+            </ul>
+        </div>
     </footer>
 </body>
 </html>
