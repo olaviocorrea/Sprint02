@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css" />    
+    <link rel="stylesheet" type="text/css" href="style.css" /> 
+    <link rel="stylesheet" type="text/css" href="Style_Account.css" /> 
+    <script src="JS_accout.js" defer></script>
     <title>Login-StyleTech</title>
 </head>
 <body>
@@ -27,35 +29,37 @@
             <div>
                 <b><h2>StyleTech | Login</h2></b>
             </div>
-            <div>
-                <div for="email">
-                    <label>Usuário</label>
+            <div class="container_">
+                <div for="username">
+                    <label>Usuario</label>
                 </div>
-                <div class="input">
+                <div class="input_login">
                     <img src="./img/imgUsername.svg" alt="Icone Usuário" target="_blank" class="iconiUsername">
-                    <input type="email" class= input-form id="email" name="email">
+                    <input type="email" class= input-form id="usuario" name="usuario">
                 </div>
             </div>
-            <div>
+            <div class="container_form">
                 <div  for="senha">
                     <label>Senha</label>
                 </div>
-                <div class="input">
+                <div class="input_login">
                     <img src="./img/imgSecure.svg" alt="Icone Usuário" target="_blank" class="iconiUsername">
                     <input type="password" class= input-form id="senha" name="senha">
                 </div>
             </div>
-            <div id="botao-login">
-                <div class="button">
-                    <button type="submit" class="button_criar_conta">Criar conta</button>
+            
+            </div>
+            <div id="buttons_login">
+                <div>
+                    <a href="page_register.html"></a><button type="submit" id="button_criar_conta">Criar conta</button></a>
                 </div>
-                <div class="button">
-                    <input type="image" src="/img/btnEnter.svg" alt="Submit" width="35" height="35">
+                <div>
+                    <input type="image" id=" button_logar" src="/img/btnEnter.svg" alt="Submit" width="35" height="35">
                 </div> 
             </div>        
         </form>
-    </main>  
-      
+    </main> 
+    
     <footer>
         <div id="down">
             <ul>

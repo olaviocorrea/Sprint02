@@ -41,56 +41,6 @@ header nav ul li a{
     padding-right: 0.4em;
 }
 
-
-
-.form-login{
-    display: flex;    
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    background-color:#2B2C32;
-    min-width: 200px;
-    max-width: 600px;
-    min-height: 300px;  
-    margin-top: 5%;
-    margin-right: 25%;
-    margin-left: 25%;
-    margin-bottom: 5%;  
-    border-radius: 10px;
-    color: #eaeaea
-    
-}
-#botao-login{    
-    display: flex;
-    justify-content:space-around;
-    width: 60%;
-}
-
-.input{
-    display: flex;
-    align-items: center;    
-    color:#eaeaea
-    
-}
-.iconiUsername{
-    width: 15%;
-    left: auto;
-}
-.input-form{
-    width: 80%;
-    height: auto;
-    border-style: dotted;
-    border-width: 1px;
-    background: #2B2B32;
-    font-size: 14px;
-    color: #eaeaea;
-}
-.button_criar_conta{
-    padding: 4px;
-    background: #2b2b2b;
-    color: #eaeaea;
-}
-
 /*------ FOOTER ------*/
 
 
