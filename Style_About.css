@@ -18,6 +18,7 @@ main, section, article dl{
 h2, article dl dt{
     font-size: 35px;
     font-weight: bold;
+    margin-top: 5px;
 }
 /*------ FOOTER ------*/
 

@@ -1,15 +1,10 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
 main{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
+    align-items: stretch;
     padding: 5%;
-    gap: 5px;
-
+    
 }
 
 .detalhes-pedidos{
@@ -17,8 +12,8 @@ main{
     justify-content: space-between;
     background: #2B2C32;
     color: #eaeaea;
-    padding: 3%
-
+    padding: 3%  
+    
 }
 
 .forma-pgto{
@@ -33,7 +28,9 @@ main{
     color: #2B2C32;
     width: 20%;
     margin-left: 80%;
-    border: none;
+    font-size:1rem;
+    border:none
+    
 }
 
 .ver-detalhes{
@@ -41,7 +38,9 @@ main{
     color: #2B2C32;
     width: 20%;
     margin-left: 80%;
-    border: none;
+    font-size: 1rem;
+    border:none;
+
 }
 
 #img-mastercard{
@@ -65,6 +64,13 @@ main{
     left: auto;
 }
 
+dt, dd, p{
+    font-size: 1rem;
+}
+.detalhes{
+    border-radius: 10px ;
+
+}
 /*------ FOOTER ------*/
 
 footer {
